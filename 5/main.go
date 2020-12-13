@@ -71,15 +71,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"sync"
 )
-
-//type Passport map[string]string
-type PassportResult struct {
-	passport    sync.Map
-	valid       bool
-	validStrict bool
-}
 
 func main() {
 
